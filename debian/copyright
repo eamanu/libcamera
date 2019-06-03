@@ -3,11 +3,13 @@ Upstream-Name: libcamera
 Source: htpps://libcamera.org
 
 Files: *
-Copyright: 2018-2019 Libcamera
+Copyright: 2018-2019, Libcamera
 License: GPL-2+ 
 
 Files: debian/*
 Copyright: 2019 Emmanuel Arias <emmanuelarias30@gmail.com>
+License: GPL-2+ 
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
