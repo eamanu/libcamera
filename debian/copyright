@@ -2,15 +2,27 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libcamera
 Source: htpps://libcamera.org
 
-Files: *
+Files: src/libcamera/*
 Copyright: 2018-2019, Libcamera
-License: GPL-2+ 
+License: LGPL-2.1+
+
+Files: src/cam/*
+Copyright: 2018-2019, Libcamera
+License: GPL-2.0+
+
+Files: src/cam/*
+Copyright: 2018-2019, Libcamera
+License: GPL-2.0+
+
+Files: test/*
+Copyright: 2018-2019, Libcamera
+License: GPL-2.0+
 
 Files: debian/*
 Copyright: 2019 Emmanuel Arias <emmanuelarias30@gmail.com>
 License: LGPL-2.1
 
-License: LGPL-2.1
+License: LGPL-2.1+
  This package is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
