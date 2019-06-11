@@ -10,12 +10,12 @@ Homepage: http://libcamera.org/
 Vcs-Browser: https://salsa.debian.org/eamanu-guest/libcamera
 Vcs-Git: https://salsa.debian.org/eamanu-guest/libcamera.git
 
-Package: libcamera-dev
+Package: libcamera
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
-Description: An open-source-friendly camera stack (development file)
+Description: Open-source-friendly camera stack (development file)
  Libcamera is a open-source-friendly camera stack to the control 
  of the image processing operation that protect the vendor core IP.
  Libcamera is develop by the Linux Media Community.

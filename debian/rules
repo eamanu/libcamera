@@ -8,6 +8,17 @@ export DH_VERBOSE = 1
 %:
 	dh $@
 
+override_dh_auto_build:
+	dh_auto_build
+	PYTHONPATH=. sphinx-build -bhtml Documentation/ -d debian/doctrees Documentation/build/html
+    
+override_dh_auto_configure:
+	# meson build -Ddocumentation=false
+	install -d obj-x86_64-linux-gnu
+	cd obj-x86_64-linux-gnu && LC_ALL=C.UTF-8 meson .. --wrap-mode=nodownload --buildtype=plain --prefix=/usr --sysconfdir=/etc --localstatedir=/var --libdir=lib/x86_64-linux-gnu --libexecdir=lib/x86_64-linux-gnu -Ddocumentation=false
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf debian/doctrees
+
 override_dh_auto_test:
 	# pass
-
