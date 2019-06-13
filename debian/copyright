@@ -10,11 +10,19 @@ Files: src/cam/*
 Copyright: 2018-2019, Libcamera
 License: GPL-2.0+
 
-Files: src/cam/*
+Files: src/qcam/*
+Copyright: 2018-2019, Libcamera
+License: GPL-2.0+
+
+Files: .clang-format 
 Copyright: 2018-2019, Libcamera
 License: GPL-2.0+
 
 Files: test/*
+Copyright: 2018-2019, Libcamera
+License: GPL-2.0+
+
+Files: utils/*
 Copyright: 2018-2019, Libcamera
 License: GPL-2.0+
 
