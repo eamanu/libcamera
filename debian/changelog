@@ -1,5 +1,5 @@
 libcamera (0~190601-1) unstable; urgency=medium
 
-  * Initial release
+  * Initial release. Closes: #930456.
  
  -- Emmanuel Arias <emmanuelarias30@gmail.com>  Sun, 02 Jun 2019 02:32:46 +0000
